@@ -63,6 +63,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 		//Update UI
 		//
 		document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+		//var input = document.querySelector('#');
 		console.log(scores);
 
 		//Check If player won game
